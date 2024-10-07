@@ -1,6 +1,6 @@
 provider "aws" {
   region  = var.region
-  profile = "miniclip-techops"
+  profile = var.profile
 
   default_tags {
     tags = {
